@@ -8,6 +8,6 @@ public class MySession extends HttpServlet {
 
     @Override
     public void doGet(HttpServletRequest request, HttpServletResponse response){
-
+        request.getSession();
     }
 }
